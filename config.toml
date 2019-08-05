@@ -15,7 +15,7 @@ enableGitInfo = false
 publishDir = "docs"
 
 [[menu.main]]
-    name = "English"
+    name = "Englishaaaa"
     url = "/en／"
     weight = 1
 
