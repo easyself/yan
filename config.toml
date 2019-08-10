@@ -1,5 +1,5 @@
 baseurl = "https://blog.bioinit.com"
-RelativeURLs=true
+RelativeURLs=false
 CanonifyURLs=true
 languageCode = "en-us"
 title = "Steven Shen | 沈维燕"
