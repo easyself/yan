@@ -1,5 +1,5 @@
 {{ if or .IsHome (len (findRE "^/cn/" .URL)) }}
-<script async src="/js/load-typekit.js"></script>
+<script async src="{{ $.Site.Params.siteurl }}/js/load-typekit.js"></script>
 {{ if lt (.Date.Year) 2017 }}
 <script>
 (function(u, c) {
@@ -13,4 +13,4 @@
 </script>
 {{ end }}
 {{ end }}
-<link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}" />
+<link rel="stylesheet" href="{{ $.Site.Params.siteurl }}/css/custom.css" />
