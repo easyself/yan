@@ -1,74 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!--- Icons --->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--- Icons --->
-    <link rel="stylesheet" href="/fonts/academicons-1.8.6/css/academicons.min.css"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="/logo/baseline.png"> <!--- Likan Icon --->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {{ if eq .URL "/" }}
-    <title>{{ .Site.Title }}</title>
-    <meta property="og:title" content="{{ .Site.Title }}">
-    <meta property="og:type" content="website">
-    {{ else }}
-    <!--- Use different titles in different Language versions, 20180210 by Likan Zhan --->
-    {{ $section := default .Section ($.Scratch.Get "section") }}
-    <title>{{ .Title }}{{ with .Params.subtitle }} - {{ . }} {{ end }} - {{ (index $.Site.Params.author $section) }}</title>
-    <!--- Use different titles in different Language versions, 20180210 by Likan Zhan --->
-    <!--- <title>{{ .Title }}{{ with .Params.subtitle }} - {{ . }} {{ end }} - {{ .Site.Title }}</title> ---> <!--- LZ 20180210 --->
-    <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
-    {{ end }}
+{{ partial "header.html" . }}
 
-    {{ if eq .URL "/" }}
-    <meta property="description" content="{{ .Site.Params.description }}">
-    {{ else }}
-      {{ if .Description }}
-      <meta property="description" content="{{ .Description }}">
-      {{ end }}
-    {{ end }}
+<p>Page not found. Feel confused? Please go ahead and leave a message below to notify me. Thanks!</p>
 
-    {{ if .Keywords }}
-    <meta property="keywords" content ="{{ delimit .Keywords ", " }}">
-    {{ end }}
-
-    {{ if .RSSLink }}
-    <link href="{{ .RSSLink | relURL }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-    {{ end }}
-  
-    <link rel="stylesheet" href="{{ $.Site.Params.siteurl }}/css/style.css"/>
-    <link rel="stylesheet" href="{{ $.Site.Params.siteurl }}/css/mystyle.css"/> 
-    <link rel="stylesheet" href="{{ $.Site.Params.siteurl }}/css/fonts.css" />
-    {{ partial "head_custom.html" . }}
-  </head>
-
-  {{ $.Scratch.Set "section" (replaceRE "^/([^/]+)/.*" "$1" .URL) }}
-  <body class="{{ if .IsHome }}home{{ else }}{{ $.Scratch.Get "section" }}{{ end }}">
-    <header class="masthead">
-      {{ partial "tagline.html" . }}
-      <nav class="menu">
-        <input id="menu-check" type="checkbox" />
-        <label id="menu-label" for="menu-check" class="unselectable">
-          <span class="icon close-icon">✕</span>
-          <span class="icon open-icon">☰</span>
-          <span class="text">Menu</span>
-        </label>
-        <ul>
-        {{ $currentPage := . }}
-        {{ range (default .Site.Menus.main (index .Site.Menus ($.Scratch.Get "section"))) }}
-        <li{{ if eq .URL $currentPage.URL }} class="active"{{ end }}><a href="{{ .URL }}">{{ .Name }}</a></li>
-        {{ end }}
-        {{ partial "menu_extra.html" . }}
-        </ul>
-      </nav>
-    </header>
-
-    
-    <section id="main">
-      <img src="{{ $.Site.Params.siteurl }}/img/404.jpg" alt="404 page not found" />
-    </section>
-
-
+<p><img src="https://blog.bioinit.com/img/elevator.gif" alt="404 not found" /></p>
 
 {{ partial "footer.html" . }}
