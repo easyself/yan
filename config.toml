@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://blog.bioinit.com"
 RelativeURLs=true
 CanonifyURLs=true
 languageCode = "en-us"
