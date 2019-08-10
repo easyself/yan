@@ -38,7 +38,7 @@
     <link href="{{ .RSSLink | relURL }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     {{ end }}
 
-    <a href="{{ .Site.BaseURL }}"></a>
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css"/>
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "/css/mystyle.css" | relURL }}" /> <!--- 20180124 added by Likan Zhan --->
     <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
