@@ -39,7 +39,7 @@
     {{ end }}
 
     <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css"/>
-    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "/css/style.css" | absURL }}" />
     <link rel="stylesheet" href="{{ "/css/mystyle.css" | relURL }}" /> <!--- 20180124 added by Likan Zhan --->
     <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
     {{ partial "head_custom.html" . }}
