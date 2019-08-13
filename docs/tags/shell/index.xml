@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shell on Steven Shen | 沈维燕</title>
-    <link>/tags/shell/</link>
+    <link>https://blog.bioinit.com/tags/shell/</link>
     <description>Recent content in Shell on Steven Shen | 沈维燕</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh</language>
     <lastBuildDate>Sat, 29 Dec 2018 09:21:11 +0000</lastBuildDate>
     
-	<atom:link href="/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.bioinit.com/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>shell 命令实战合集</title>
-      <link>/post/2018-12-29-shell/</link>
+      <link>https://blog.bioinit.com/post/2018-12-29-shell/</link>
       <pubDate>Sat, 29 Dec 2018 09:21:11 +0000</pubDate>
       
-      <guid>/post/2018-12-29-shell/</guid>
+      <guid>https://blog.bioinit.com/post/2018-12-29-shell/</guid>
       <description>awk &#39;BEGIN{FS=OFS=&amp;quot;\t&amp;quot;}{match($NF,/Project_report\/(.*)/,arr);print $NF=arr[1];print &amp;quot;#&amp;quot;$0}&#39; project_report_bef180601.txt linux 下使用命令排除当前行及下一行的内容 sed &#39;/关键字/,+1d&#39; file &amp;gt;file2</description>
     </item>
     

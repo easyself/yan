@@ -5,7 +5,7 @@
 {{ $.Scratch.Set "filePath" $.File.Path }}
 {{ if in $.File.Path ".html"}}
 {{ $.Scratch.Set "filePath" (replaceRE "[.]html$" ".Rmd" $.File.Path) }}
-{{ $.Scratch.Set "filePath" (replace ($.Scratch.Get "filePath") "\\" "/") }}
+{{ $.Scratch.Set "filePath" (replace ($.Scratch.Get "filePath") "\\/" "/") }}
 {{ end }}
 <li><a href="{{ or $.Params.githubEditURL  (print .  ($.Scratch.Get "filePath")) }}" target="_blank">{{ default "编辑" (index $.Site.Params.lang.edit $section) }}</a></li>
 {{ end }}

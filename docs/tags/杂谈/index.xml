@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>杂谈 on Steven Shen | 沈维燕</title>
-    <link>/tags/%E6%9D%82%E8%B0%88/</link>
+    <link>https://blog.bioinit.com/tags/%E6%9D%82%E8%B0%88/</link>
     <description>Recent content in 杂谈 on Steven Shen | 沈维燕</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh</language>
     <lastBuildDate>Wed, 29 May 2019 06:05:40 +0000</lastBuildDate>
     
-	<atom:link href="/tags/%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.bioinit.com/tags/%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>一些博客与站点搜集</title>
-      <link>/post/2019-05-29-blogs-and-sites-collected/</link>
+      <link>https://blog.bioinit.com/post/2019-05-29-blogs-and-sites-collected/</link>
       <pubDate>Wed, 29 May 2019 06:05:40 +0000</pubDate>
       
-      <guid>/post/2019-05-29-blogs-and-sites-collected/</guid>
+      <guid>https://blog.bioinit.com/post/2019-05-29-blogs-and-sites-collected/</guid>
       <description>搜集的一些简洁、大气优秀的博客客户端、模板，以及相关服务。 客户端 ** Gridea：https://github.com/getgridea 一个</description>
     </item>
     
     <item>
       <title>各种博客收藏列表</title>
-      <link>/post/2019-05-10-blogs-collect/</link>
+      <link>https://blog.bioinit.com/post/2019-05-10-blogs-collect/</link>
       <pubDate>Fri, 10 May 2019 06:49:32 +0000</pubDate>
       
-      <guid>/post/2019-05-10-blogs-collect/</guid>
+      <guid>https://blog.bioinit.com/post/2019-05-10-blogs-collect/</guid>
       <description>Jekyll 博客：https://www.oukohou.wang/ 折腾一叶知秋 https://icons8.com/icon/set/write-message/material icon 保存要求：padding：4%；像素：60px，a 图颜色：#707</description>
     </item>
     
