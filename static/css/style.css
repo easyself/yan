@@ -129,18 +129,27 @@ hr {
 }
 
 .post-nav {
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   font-weight: bold;
 }
 
 .nav-next {
+  width: 60%;
   margin-left: 1em;
   text-align: right;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .nav-prev {
   margin-right: 1em;
+  width: 60%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .comments {
