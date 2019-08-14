@@ -35,7 +35,11 @@ published: true
 
 - 杨青的个人博客：[http://man.yangqq.com/](http://man.yangqq.com/)
 
-基于 PHP、帝国 CMS 的博客模板系列。 <br />
+基于 PHP、帝国 CMS 的博客模板系列。 
+
+- 璇珠杂俎博客，[https://www.oukohou.wang/](https://www.oukohou.wang/)
+
+达闼科技的深度学习算法工程师，Jekyll+Github Pages 博客。<br />
 <br />
 
 <a name="qigql"></a>

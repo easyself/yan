@@ -6,11 +6,6 @@ tags: Shell
 published: true
 ---
 
-
-```bash
-awk 'BEGIN{FS=OFS="\t"}{match($NF,/Project_report\/(.*)/,arr);print $NF=arr[1];print "#"$0}' project_report_bef180601.txt
-```
-
 - linux 下使用命令排除当前行及下一行的内容
 ```shell
 sed '/关键字/,+1d' file >file2

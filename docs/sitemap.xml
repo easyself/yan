@@ -13,17 +13,17 @@
   </url>
   
   <url>
+    <loc>https://blog.bioinit.com/post/2019-08-08-build-hugo-blogs/</loc>
+    <lastmod>2019-08-08T09:05:21+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.bioinit.com/post/2019-08-08-sync-from-yuque-to-qiniu/</loc>
     <lastmod>2019-08-08T03:44:11+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.bioinit.com/post/2019-08-08-nr93c3/</loc>
-    <lastmod>2019-08-08T02:54:02+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/post/2019-08-07-opeoqu/</loc>
+    <loc>https://blog.bioinit.com/post/2019-08-07-flex-slider-and-raxus-slider/</loc>
     <lastmod>2019-08-07T08:54:07+00:00</lastmod>
   </url>
   
@@ -303,6 +303,11 @@
   </url>
   
   <url>
+    <loc>https://blog.bioinit.com/post/2019-06-21-ksczr1/</loc>
+    <lastmod>2019-06-21T03:58:08+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.bioinit.com/research/apobec3b_signature/</loc>
     <lastmod>2019-06-20T00:00:00+00:00</lastmod>
   </url>
@@ -468,11 +473,6 @@
   </url>
   
   <url>
-    <loc>https://blog.bioinit.com/post/2019-05-10-blogs-collect/</loc>
-    <lastmod>2019-05-10T06:49:32+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.bioinit.com/post/2019-05-10-oquebf/</loc>
     <lastmod>2019-05-10T03:54:24+00:00</lastmod>
   </url>
@@ -480,11 +480,6 @@
   <url>
     <loc>https://blog.bioinit.com/post/2019-05-09-xpurpl/</loc>
     <lastmod>2019-05-09T00:53:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/post/2019-05-07-ysegnx/</loc>
-    <lastmod>2019-05-07T01:23:46+00:00</lastmod>
   </url>
   
   <url>
@@ -518,7 +513,7 @@
   </url>
   
   <url>
-    <loc>https://blog.bioinit.com/post/2018-12-29-shell/</loc>
+    <loc>https://blog.bioinit.com/post/2018-12-29-shell-practice/</loc>
     <lastmod>2018-12-29T09:21:11+00:00</lastmod>
   </url>
   
@@ -623,7 +618,7 @@
   
   <url>
     <loc>https://blog.bioinit.com/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2019-05-29T06:05:40+00:00</lastmod>
+    <lastmod>2019-08-08T09:05:21+00:00</lastmod>
     <priority>0</priority>
   </url>
   

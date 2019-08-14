@@ -64,3 +64,11 @@ HTTPS 配置中的 SSL 证书可以选择申请七牛与的免费证书；也可
 **最后**，在博客中把博客所有 [https://qiniu.bioinit.com](https://qiniu.bioinit.com/) 的域名都替换成 [https://qiniu.bioinit.com](http://qiniu.bioinit.com/)，并检查图片是否正常显示。
 
 
+<a name="8lwWX"></a>
+## 四、个人博客
+
+参考 R 语言大神谢益辉（[https://yihui.name/](https://yihui.name/)）和 Jekyll 的一些大神，基于 Github Pages 搭建的 hugo+rblowndown、Jekyll 博客，附上首页截图，需要的请拿去。<br />![hugo.png](https://qiniu.bioinit.com/yuque/0/2019/png/126032/1565419585151-caacf476-acae-440c-b878-2d316fa9bc4a.png#align=left&display=inline&height=660&name=hugo.png&originHeight=660&originWidth=1049&size=121639&status=done&width=1049)
+
+![jekyll_site.png](https://qiniu.bioinit.com/yuque/0/2019/png/126032/1565419489036-1407a79e-245c-4177-893f-ede837285416.png#align=left&display=inline&height=662&name=jekyll_site.png&originHeight=662&originWidth=1052&size=190642&status=done&width=1052)
+
+

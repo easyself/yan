@@ -21,20 +21,11 @@
     </item>
     
     <item>
-      <title>语雀图片折腾</title>
-      <link>https://blog.bioinit.com/post/2019-08-08-nr93c3/</link>
-      <pubDate>Thu, 08 Aug 2019 02:54:02 +0000</pubDate>
-      
-      <guid>https://blog.bioinit.com/post/2019-08-08-nr93c3/</guid>
-      <description>jpeg 图片，保存格式： https://qiniu.bioinit.com/yuque/0/2019/jpeg/126032/1565232878017-bcd6fb0b-dc86-4084-aeca-c1ab17760202.jpeg png 图片，保存格式（2019 是年份，png 是图片格式，126032 是文章的创建者id）： https://qiniu.bioinit.com/yuque/0/2019/png/126032/1565232997137-5fd1900b-866d-4e5b-8993-9668235bd8a3.png</description>
-    </item>
-    
-    <item>
-      <title>FlexSlider 插件相关参数</title>
-      <link>https://blog.bioinit.com/post/2019-08-07-opeoqu/</link>
+      <title>FlexSlider 和 RaxusSlider 插件相关参数</title>
+      <link>https://blog.bioinit.com/post/2019-08-07-flex-slider-and-raxus-slider/</link>
       <pubDate>Wed, 07 Aug 2019 08:54:07 +0000</pubDate>
       
-      <guid>https://blog.bioinit.com/post/2019-08-07-opeoqu/</guid>
+      <guid>https://blog.bioinit.com/post/2019-08-07-flex-slider-and-raxus-slider/</guid>
       <description>FlexSlider 链接：http://flexslider.woothemes.com/ FlexSlider 是一个非常出色的 jQuery 滑动切换插件，它支持所有主流浏览器，并有淡入淡出</description>
     </item>
     
@@ -111,12 +102,12 @@
     </item>
     
     <item>
-      <title>联通宽带的坑</title>
+      <title>中国联通家庭宽带</title>
       <link>https://blog.bioinit.com/post/2019-07-08-unicom_broadband/</link>
       <pubDate>Mon, 08 Jul 2019 01:51:47 +0000</pubDate>
       
       <guid>https://blog.bioinit.com/post/2019-07-08-unicom_broadband/</guid>
-      <description>从星期四起，家里的联通宽带网络就断了。 没有任何提前的信息提示，也不能在线充值续费；去营业厅办理续费必须要身份证，旧联通号码不能升级联通新宽带</description>
+      <description>从星期四起，家里用了两年的联通宽带网络到期，断了。 没有任何提前的信息提示，也不能在线充值续费； 去营业厅办理续费必须要身份证，居住证、驾驶证、</description>
     </item>
     
     <item>
@@ -318,6 +309,15 @@
     </item>
     
     <item>
+      <title>VS Code 常见配置与使用技巧总结</title>
+      <link>https://blog.bioinit.com/post/2019-06-21-ksczr1/</link>
+      <pubDate>Fri, 21 Jun 2019 03:58:08 +0000</pubDate>
+      
+      <guid>https://blog.bioinit.com/post/2019-06-21-ksczr1/</guid>
+      <description>版本: 1.35.1 (user setup) 1. 通过配置文件设置 VS Code 的配置文件默认为：settings.json，我们可以通过下面的方式打开该文件进行自定义配置： { &amp;quot;editor.minimap.enabled&amp;quot;: false, &amp;quot;editor.fontSize&amp;quot;: 12, &amp;quot;workbench.statusBar.feedback.visible&amp;quot;:</description>
+    </item>
+    
+    <item>
       <title>Html 垂直多级菜单栏模板</title>
       <link>https://blog.bioinit.com/post/2019-06-17-qrtsf1/</link>
       <pubDate>Mon, 17 Jun 2019 09:12:54 +0000</pubDate>
@@ -459,15 +459,6 @@
       
       <guid>https://blog.bioinit.com/post/2019-05-09-xpurpl/</guid>
       <description>GitHub 自从私有库免费后，涌入大批量的开发爱好者，小 S 也将自己的部分代码转为了私库，但是在中国访问 GitHub 的速度不忍直视，那就叫一个慢！下面小 C 就用下面</description>
-    </item>
-    
-    <item>
-      <title>如何解决服务器I/O过高的问题</title>
-      <link>https://blog.bioinit.com/post/2019-05-07-ysegnx/</link>
-      <pubDate>Tue, 07 May 2019 01:23:46 +0000</pubDate>
-      
-      <guid>https://blog.bioinit.com/post/2019-05-07-ysegnx/</guid>
-      <description>问题缘起: 当我习惯性地用top查看任务运行状态时，发现我运行的100个任务，只有3个在运行，其他都在摸鱼状态。同时发现我的任务进程都是&amp;rd</description>
     </item>
     
     <item>
