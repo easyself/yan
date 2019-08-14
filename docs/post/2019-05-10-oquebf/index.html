@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" href="../../fonts/academicons-1.8.6/css/academicons.min.css"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="../../logo/baseline.png"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="../../img/logo.png"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     
@@ -106,31 +106,34 @@
 
 
 <ol>
-<li><p>本地创建分支 v-1.2</p>
+<li>本地创建分支 v-1.2
+```shell
+$ git branch v-1.2
+$ git branch</li>
 
-<pre><code class="language-shell">$ git branch v-1.2
-$ git branch
-* master
+<li><p>master
 v-1.2
-</code></pre></li>
+```</p></li>
 
-<li><p>切换本地分支</p>
+<li><p>切换本地分支
+```shell
+$ git branch</p></li>
 
-<pre><code class="language-shell">$ git branch
-* master
-v-1.2
+<li><p>master
+v-1.2</p></li>
+</ol>
 
-$ git checkout v-1.2
-Switched to branch 'v-1.2'
+<p>$ git checkout v-1.2
+Switched to branch &lsquo;v-1.2&rsquo;</p>
 
-$ git branch
-master
-* v-1.2
-</code></pre></li>
+<p>$ git branch
+  master
+* v-1.2</p>
 
-<li><p>把本地分支提交到远程分支仓库</p>
-
-<pre><code class="language-shell">$ git add --all
+<pre><code>
+3. 把本地分支提交到远程分支仓库
+```shell
+$ git add --all
 
 $ git commit -m &quot;ASO design for Galaxy version 1.2&quot;
 
@@ -143,18 +146,19 @@ Compressing objects: 100% (17/17), done.
 Writing objects: 100% (18/18), 29.87 KiB | 0 bytes/s, done.
 Total 18 (delta 3), reused 0 (delta 0)
 To https://git.dev.tencent.com/shenweiyan/aso_design.git
-* [new branch]      v-1.2 -&gt; v-1.2
-</code></pre></li>
+ * [new branch]      v-1.2 -&gt; v-1.2
+</code></pre>
 
-<li><p>查看一下远程仓库有几个分支</p>
-
-<pre><code class="language-shell">$ git branch -a
-master
-* v-1.2
+<ol>
+<li>查看一下远程仓库有几个分支
+```shell
+$ git branch -a
+master</li>
+<li>v-1.2
 remotes/origin/HEAD -&gt; origin/master
 remotes/origin/master
 remotes/origin/v-1.2
-</code></pre></li>
+```</li>
 </ol>
 
 

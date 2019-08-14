@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>others on Steven Shen | 沈维燕</title>
+    <title>Others on Steven Shen | 沈维燕</title>
     <link>https://blog.bioinit.com/tags/others/</link>
-    <description>Recent content in others on Steven Shen | 沈维燕</description>
+    <description>Recent content in Others on Steven Shen | 沈维燕</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Thu, 08 Aug 2019 03:44:11 +0000</lastBuildDate>
@@ -413,7 +413,7 @@
       <pubDate>Tue, 21 May 2019 03:48:13 +0000</pubDate>
       
       <guid>https://blog.bioinit.com/post/2019-05-21-kzicg7/</guid>
-      <description>subprocess import subprocess transid = str(subprocess.check_output([&#39;grep&#39; , &#39;-w&#39;, geneid, trans2gene])).strip()</description>
+      <description>subprocess python import subprocess transid = str(subprocess.check_output([&#39;grep&#39; , &#39;-w&#39;, geneid, trans2gene])).strip()</description>
     </item>
     
     <item>
@@ -449,7 +449,7 @@
       <pubDate>Fri, 10 May 2019 03:54:24 +0000</pubDate>
       
       <guid>https://blog.bioinit.com/post/2019-05-10-oquebf/</guid>
-      <description>本地创建分支 v-1.2 $ git branch v-1.2 $ git branch * master v-1.2 切换本地分支 $ git branch * master v-1.2 $ git checkout v-1.2 Switched to branch &#39;v-1.2&#39; $ git branch master * v-1.2 把本地分支提交到远程分支仓库 $ git add --all $ git commit -m &amp;quot;ASO design for Galaxy version</description>
+      <description>本地创建分支 v-1.2 ```shell $ git branch v-1.2 $ git branch master v-1.2 ``` 切换本地分支 ```shell $ git branch master v-1.2 $ git checkout v-1.2 Switched to branch &amp;lsquo;v-1.2&amp;rsquo; $ git branch master * v-1.2 3. 把本地分支提交到远程分支仓库 ```shell $ git add --all $ git commit -m &amp;quot;ASO design</description>
     </item>
     
     <item>

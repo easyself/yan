@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" href="../../fonts/academicons-1.8.6/css/academicons.min.css"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="../../logo/baseline.png"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="../../img/logo.png"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     
@@ -161,14 +161,12 @@ CXX11STD = -std=c++11</p>
 
 
 我个人的解决方法是，直接修改 /Bioinfo/Pipeline/SoftWare/R/R-3.6.0/lib64/R/etc/Makeconf 文件，替换下面的内容：
-</code></pre>
-
-<p>yaml
+```yaml
 CXX11 = g++
 CXX11FLAGS = -O2 -g $(LTO)
 CXX11PICFLAGS = -fPIC
-CXX11STD =
-```</p>
+CXX11STD = 
+</code></pre>
 
 <ul>
 <li>CXX11STD 值必须为空，否则在 R 中** install.packages()** 会出现另外的错误：<strong>cc1plus: error: unrecognized command line option &ldquo;-std=c++11&rdquo;。</strong></li>

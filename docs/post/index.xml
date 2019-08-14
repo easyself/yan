@@ -647,7 +647,7 @@
       <pubDate>Tue, 21 May 2019 03:48:13 +0000</pubDate>
       
       <guid>https://blog.bioinit.com/post/2019-05-21-kzicg7/</guid>
-      <description>subprocess import subprocess transid = str(subprocess.check_output([&#39;grep&#39; , &#39;-w&#39;, geneid, trans2gene])).strip()</description>
+      <description>subprocess python import subprocess transid = str(subprocess.check_output([&#39;grep&#39; , &#39;-w&#39;, geneid, trans2gene])).strip()</description>
     </item>
     
     <item>
@@ -791,7 +791,7 @@
       <pubDate>Fri, 10 May 2019 03:54:24 +0000</pubDate>
       
       <guid>https://blog.bioinit.com/post/2019-05-10-oquebf/</guid>
-      <description>本地创建分支 v-1.2 $ git branch v-1.2 $ git branch * master v-1.2 切换本地分支 $ git branch * master v-1.2 $ git checkout v-1.2 Switched to branch &#39;v-1.2&#39; $ git branch master * v-1.2 把本地分支提交到远程分支仓库 $ git add --all $ git commit -m &amp;quot;ASO design for Galaxy version</description>
+      <description>本地创建分支 v-1.2 ```shell $ git branch v-1.2 $ git branch master v-1.2 ``` 切换本地分支 ```shell $ git branch master v-1.2 $ git checkout v-1.2 Switched to branch &amp;lsquo;v-1.2&amp;rsquo; $ git branch master * v-1.2 3. 把本地分支提交到远程分支仓库 ```shell $ git add --all $ git commit -m &amp;quot;ASO design</description>
     </item>
     
     <item>
@@ -845,7 +845,7 @@
       <pubDate>Sat, 29 Dec 2018 09:21:11 +0000</pubDate>
       
       <guid>https://blog.bioinit.com/post/2018-12-29-shell/</guid>
-      <description>awk &#39;BEGIN{FS=OFS=&amp;quot;\t&amp;quot;}{match($NF,/Project_report\/(.*)/,arr);print $NF=arr[1];print &amp;quot;#&amp;quot;$0}&#39; project_report_bef180601.txt linux 下使用命令排除当前行及下一行的内容 sed &#39;/关键字/,+1d&#39; file &amp;gt;file2</description>
+      <description>awk &#39;BEGIN{FS=OFS=&amp;quot;\t&amp;quot;}{match($NF,/Project_report\/(.*)/,arr);print $NF=arr[1];print &amp;quot;#&amp;quot;$0}&#39; project_report_bef180601.txt linux 下使用命令排除当前行及下一行的内容 shell sed &#39;/关键字/,+1d&#39; file &amp;gt;file2</description>
     </item>
     
   </channel>

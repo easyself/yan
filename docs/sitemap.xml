@@ -3,20 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.bioinit.com/</loc>
+    <lastmod>2019-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.bioinit.com/other/</loc>
     <lastmod>2019-08-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/tags/</loc>
-    <lastmod>2019-08-08T03:44:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/tags/others/</loc>
-    <lastmod>2019-08-08T03:44:11+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -50,26 +43,8 @@
   </url>
   
   <url>
-    <loc>https://blog.bioinit.com/tags/redhat-centos/</loc>
-    <lastmod>2019-07-25T01:29:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.bioinit.com/post/2019-07-23-coding-cancel-account/</loc>
     <lastmod>2019-07-23T03:19:17+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/tags/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2019-07-23T03:19:17+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/tags/linux/</loc>
-    <lastmod>2019-07-19T06:06:53+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -85,12 +60,6 @@
   <url>
     <loc>https://blog.bioinit.com/post/2019-07-19-ucig1a/</loc>
     <lastmod>2019-07-19T01:01:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/tags/jupyter/</loc>
-    <lastmod>2019-07-17T08:25:34+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -116,12 +85,6 @@
   <url>
     <loc>https://blog.bioinit.com/post/2019-07-17-jupyter-notebook-toturial-1/</loc>
     <lastmod>2019-07-17T03:38:57+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/tags/r/</loc>
-    <lastmod>2019-07-15T09:24:35+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -155,12 +118,6 @@
   </url>
   
   <url>
-    <loc>https://blog.bioinit.com/tags/anaconda/</loc>
-    <lastmod>2019-07-04T06:20:26+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.bioinit.com/post/2019-07-04-anaconda-experience/</loc>
     <lastmod>2019-07-04T06:20:26+00:00</lastmod>
   </url>
@@ -191,12 +148,6 @@
   </url>
   
   <url>
-    <loc>https://blog.bioinit.com/tags/vim/</loc>
-    <lastmod>2019-07-01T03:57:31+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.bioinit.com/post/2019-07-01-vim-skills/</loc>
     <lastmod>2019-07-01T03:57:31+00:00</lastmod>
   </url>
@@ -209,12 +160,6 @@
   <url>
     <loc>https://blog.bioinit.com/post/2019-07-01-bioconductor-packages/</loc>
     <lastmod>2019-07-01T03:50:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/tags/centos/</loc>
-    <lastmod>2019-07-01T03:50:35+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -235,12 +180,6 @@
   <url>
     <loc>https://blog.bioinit.com/post/2019-07-01-latex-2018-tutorial/</loc>
     <lastmod>2019-07-01T03:50:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/tags/python/</loc>
-    <lastmod>2019-07-01T03:50:35+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -344,24 +283,6 @@
   </url>
   
   <url>
-    <loc>https://blog.bioinit.com/tags/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2019-07-01T03:50:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/tags/%E8%BD%AF%E4%BB%B6-perl/</loc>
-    <lastmod>2019-07-01T03:50:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/tags/%E8%BD%AF%E4%BB%B6-r/</loc>
-    <lastmod>2019-07-01T03:50:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.bioinit.com/post/2019-07-01-lqc7hd/</loc>
     <lastmod>2019-07-01T03:50:35+00:00</lastmod>
   </url>
@@ -437,20 +358,8 @@
   </url>
   
   <url>
-    <loc>https://blog.bioinit.com/resume/</loc>
-    <lastmod>2019-08-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.bioinit.com/resume/shenweiyan/</loc>
     <lastmod>2019-08-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/tags/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2019-05-29T06:12:49+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -461,12 +370,6 @@
   <url>
     <loc>https://blog.bioinit.com/post/2019-05-29-blogs-and-sites-collected/</loc>
     <lastmod>2019-05-29T06:05:40+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2019-05-29T06:05:40+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -525,18 +428,6 @@
   </url>
   
   <url>
-    <loc>https://blog.bioinit.com/tags/redhat-%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2019-05-18T12:39:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/tags/chrome/</loc>
-    <lastmod>2019-05-18T12:29:57+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.bioinit.com/post/2019-05-18-chrome-tutorial/</loc>
     <lastmod>2019-05-18T12:29:57+00:00</lastmod>
   </url>
@@ -569,12 +460,6 @@
   <url>
     <loc>https://blog.bioinit.com/post/2019-05-18-install-python-from-source/</loc>
     <lastmod>2019-05-18T12:10:10+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.bioinit.com/tags/%E8%BD%AF%E4%BB%B6-python/</loc>
-    <lastmod>2019-05-18T12:10:10+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -633,12 +518,6 @@
   </url>
   
   <url>
-    <loc>https://blog.bioinit.com/tags/shell/</loc>
-    <lastmod>2018-12-29T09:21:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.bioinit.com/post/2018-12-29-shell/</loc>
     <lastmod>2018-12-29T09:21:11+00:00</lastmod>
   </url>
@@ -649,17 +528,138 @@
   </url>
   
   <url>
-    <loc>https://blog.bioinit.com/</loc>
-    <lastmod>2016-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.bioinit.com/about/</loc>
     <lastmod>2016-05-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://blog.bioinit.com/tags/anaconda/</loc>
+    <lastmod>2019-07-04T06:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.bioinit.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/centos/</loc>
+    <lastmod>2019-07-01T03:50:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/chrome/</loc>
+    <lastmod>2019-05-18T12:29:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/jupyter/</loc>
+    <lastmod>2019-07-17T08:25:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/linux/</loc>
+    <lastmod>2019-07-19T06:06:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/others/</loc>
+    <lastmod>2019-08-08T03:44:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/python/</loc>
+    <lastmod>2019-07-01T03:50:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/r/</loc>
+    <lastmod>2019-07-15T09:24:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/redhat-centos/</loc>
+    <lastmod>2019-07-25T01:29:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/redhat-%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2019-05-18T12:39:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/resume/</loc>
+    <lastmod>2019-08-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/shell/</loc>
+    <lastmod>2018-12-29T09:21:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/</loc>
+    <lastmod>2019-07-04T06:20:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/vim/</loc>
+    <lastmod>2019-07-01T03:57:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2019-05-29T06:05:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6-%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2019-05-29T06:12:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2019-07-23T03:19:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2019-07-01T03:50:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/%E8%BD%AF%E4%BB%B6-perl/</loc>
+    <lastmod>2019-07-01T03:50:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/%E8%BD%AF%E4%BB%B6-python/</loc>
+    <lastmod>2019-05-18T12:10:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bioinit.com/tags/%E8%BD%AF%E4%BB%B6-r/</loc>
+    <lastmod>2019-07-01T03:50:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
