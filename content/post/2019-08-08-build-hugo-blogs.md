@@ -92,13 +92,11 @@ WARN 2019/08/13 09:03:08 Page's .RSSLink is deprecated and will be removed in a 
 1. 网络部分关于将 `.URL` 相关的文件中 `.URL` 改成 `.Permalink` 以解决 `.URL` 的上述报错的做法（参考：《[LeaveIt以支持最新版Hugo](https://blog.hgtweb.com/2019/%E4%BF%AE%E5%A4%8Dleaveit%E4%BB%A5%E6%94%AF%E6%8C%81%E6%9C%80%E6%96%B0%E7%89%88hugo/)》），经测试如果针对 Menu 级别的 html 模板会引发其他错误；而且虽然 hugo 更新到了 0.56.3，但官方文档示例还在使用 `.URL` ，参考 [https://github.com/gohugoio/hugo/issues/5835](https://github.com/gohugoio/hugo/issues/5835)。
 
 2. 修改包含 `.RSSLink` 相关的文件，如下：
-
 ```go
 <!-- 修改前 -->
 {{ if .RSSLink }}
     <link href="{{ .RSSLink | relURL }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 {{ end }}
-
 <!-- 修改后 -->
 {{ with .OutputFormats.Get "RSS" }}
     <link href="{{ .RelPermalink | relURL }}" rel="alternate" type="application/rss+xml" title="{{ $.Title }}" />
