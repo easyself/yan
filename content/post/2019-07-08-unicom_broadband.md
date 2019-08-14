@@ -13,3 +13,17 @@ published: true
 就一个感觉，联通宽带套路真多，对待老用户真够坑！
 
 一怒之下，跟隔壁邻居来了个共享 WiFi，准备彻底跟联通宽带拜拜。最后补充一句，邻居的 WiFi 居然可以设置隐藏 WiFi 信息，这种降低蹭网风险的做法真的很赞，值得学习！
+
+测试 Go 语言：
+```go
+<!-- 修改前 -->
+{{ if .RSSLink }}
+    <link href="{{ .RSSLink | relURL }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ end }}
+
+<!-- 修改后 -->
+{{ with .OutputFormats.Get "RSS" }}
+    <link href="{{ .RelPermalink | relURL }}" rel="alternate" type="application/rss+xml" title="{{ $.Title }}" />
+{{ end }}
+```
+
