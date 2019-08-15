@@ -162,7 +162,7 @@ source $HOME/.bashrc
 <p><strong>请注意：</strong></p>
 
 <ol>
-<li><strong>openssl </strong>编译（config）的时候 <strong>必须要加上 shared 参数</strong>，否者源码安装 Python 即使添加了 <code>--with-openssl</code> 的自定义路径，依然会导致 <code>Could not build the ssl module!</code> 报错！</li>
+<li><strong>openssl</strong> 编译（config）的时候 <strong>必须要加上 shared 参数</strong>，否者源码安装 Python 即使添加了 <code>--with-openssl</code> 的自定义路径，依然会导致 <code>Could not build the ssl module!</code> 报错！</li>
 <li>从 <a href="https://www.openssl.org/source/">https://www.openssl.org/source/</a> 下载的源码 openssl-1.0.2s、openssl-1.0.2m 目前发现依然会导致 <code>Could not build the ssl module</code> ，建议从 <a href="https://www.openssl.org/source/old/">https://www.openssl.org/source/old/</a> 下载 1.1.1 的源码编译安装。</li>
 </ol>
 
@@ -414,6 +414,7 @@ document.addEventListener('keyup', function(e) {
 
 <section class="comments">
   <div id="disqus_thread"></div>
+  <script src="../../js/disqusloader.min.js"></script>
   <script>
   var disqus_config = function () {
   
@@ -428,31 +429,17 @@ document.addEventListener('keyup', function(e) {
     };
     if (inIFrame()) return;
     var disqus_js = '//bioinit.disqus.com/embed.js';
-    var d = document, s = d.createElement('script');
-    s.src = disqus_js; s.async = true;
-    s.setAttribute('data-timestamp', +new Date());
-    var b = false, l = function() {
-      if (b) return;
-      (d.head || d.body).appendChild(s); b = true;
-    }
-    var t = d.getElementById('disqus_thread');
-    s.onerror = function(e) {
-      if (sessionStorage.getItem('failure-note')) return;
-      t.innerText = '非常抱歉, 中国大陆地区读者需要翻墙才能发表评论。';
-      t.style.border = '1px dashed';
-      t.style.padding = '.5em';
-      t.style.background = 'lightyellow';
-      sessionStorage.setItem('failure-note', true);
-    };
     
-    if (location.hash.match(/^#comment/)) return l();
-    var c = function() {
-      if (b) return;
-      var rect = t.getBoundingClientRect();
-      if (rect.top < window.innerHeight && rect.bottom >= 0) l();
-    };
-    window.addEventListener('load', c);
-    d.addEventListener('scroll', c);
+    if (location.hash.match(/^#comment/)) {
+      var d = document, s = d.createElement('script');
+      s.src = disqus_js; s.async = true;
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    } else {
+      disqusLoader('#disqus_thread', {
+        scriptUrl: disqus_js, laziness: 0, disqusConfig: disqus_config
+      });
+    }
   })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
