@@ -97,6 +97,7 @@ WARN 2019/08/13 09:03:08 Page's .RSSLink is deprecated and will be removed in a 
 {{ if .RSSLink }}
     <link href="{{ .RSSLink | relURL }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 {{ end }}
+...
 <!-- 修改后 -->
 {{ with .OutputFormats.Get "RSS" }}
     <link href="{{ .RelPermalink | relURL }}" rel="alternate" type="application/rss+xml" title="{{ $.Title }}" />
