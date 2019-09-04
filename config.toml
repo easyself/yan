@@ -1,4 +1,4 @@
-baseurl = "https://blog.bioinit.com"
+baseurl = "https://easyself.github.io/yan/"
 RelativeURLs=true
 CanonifyURLs=true
 languageCode = "zh"	# html的lang属性值
@@ -19,7 +19,7 @@ publishDir = "docs"
 
 [[menu.main]]
     name = "首页"
-    url = "https://blog.bioinit.com"
+    url = "https://easyself.github.io/yan"
     weight = 1
 
 [[menu.main]]
@@ -59,11 +59,11 @@ publishDir = "docs"
 
 
 [params]
-    siteurl = "https://blog.bioinit.com"
+    siteurl = "https://easyself.github.io/yan/"
     description = "Personal website of Steven Shen; 沈维燕的个人网站"
-    disqusURL = "https://shenweiyan.github.io/home/"
+    disqusURL = "https://easyself.github.io/yan/home/"
     customJS = ["js/fix-toc.js", "js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js", "js/math-code.js", "js/external-link.js", "js/alt-title.js", "js/header-link.js"]
-    githubContentURL = "https://github.com/shenweiyan/home/edit/master/content/"
+    githubContentURL = "https://github.com/easyself/yan/home/edit/master/content/"
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
     highlightjsLang = ["r", "yaml", "tex"]
