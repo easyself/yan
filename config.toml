@@ -6,7 +6,7 @@ DefaultContentLanguage = "zh" # 默认内容语言用于选择i18n语言模板
 title = "Steven Shen | 沈维燕"
 theme = "hugo-ivy"
 #googleAnalytics = "UA-112592341-1"
-disqusShortname = "bioinit"
+#disqusShortname = "bioinit"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 hasCJKLanguage = true  # .WordCount works correctly for chinese
 enableEmoji = true
@@ -80,11 +80,11 @@ enableGitInfo = false
     en = "Steven Shen"
     cn = "沈维燕"
 
-[params.logo.en]
-    img = "https://apps-db.oss-cn-shenzhen.aliyuncs.com/logos/shenweiyan.png"
-    url = "/"
-    alt = "Steven Shen"
-    tag = ""
+#[params.logo.en]
+#    img = "https://apps-db.oss-cn-shenzhen.aliyuncs.com/logos/shenweiyan.png"
+#    url = "/"
+#    alt = "Steven Shen"
+#    tag = ""
 
 [params.lang.edit]
     cn = "编辑"
