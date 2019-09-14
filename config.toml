@@ -80,11 +80,11 @@ enableGitInfo = false
     en = "Steven Shen"
     cn = "沈维燕"
 
-#[params.logo.en]
-#    img = "https://apps-db.oss-cn-shenzhen.aliyuncs.com/logos/shenweiyan.png"
-#    url = "/"
-#    alt = "Steven Shen"
-#    tag = ""
+[params.logo.en]
+    img = "https://i.loli.net/2019/09/15/bxvzpsjZqYMBaD8.png"
+    url = "/"
+    alt = "Steven Shen"
+    tag = ""
 
 [params.lang.edit]
     cn = "编辑"
