@@ -7,18 +7,24 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@master
+      # with:
+      #   submodules: true
 
-    - name: build
-      uses: peaceiris/actions-hugo@v0.57.2
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2.2.2
       with:
-        args: --gc --minify --cleanDestinationDir
+        hugo-version: '0.58.3'
 
-    - name: deploy
-      uses: peaceiris/actions-gh-pages@v2.2.0
+    - name: Build
+      run: hugo --gc --minify
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.5.0
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        EXTERNAL_REPOSITORY: easyself/even
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./public
